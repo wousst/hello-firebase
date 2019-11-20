@@ -1,0 +1,10 @@
+{
+    "name": "hello-firebase",
+    "description": "Store random number into Google Firebase Database.",
+    "version": "0.0.1",
+    "dependencies": {
+        "firebase-functions": "*",
+        "firebase-admin": "*",
+        "date-time": "*"
+    }
+}
