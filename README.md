@@ -10,9 +10,9 @@ $ npm install --save
 
 ## Configure
 
-Specify Google service account key and Firebase database URL. 
+Specify your Google service account key and Firebase database URL. 
 
-[TODO][Github embedded code snippet]
+https://github.com/wousst/hello-firebase/blob/a65765556801467d473ee9ba7b32b469556b123f/main.js#L5-L12
 
 ## Author
 
