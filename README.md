@@ -12,7 +12,17 @@ $ npm install --save
 
 Specify your Google service account key and Firebase database URL. 
 
-https://github.com/wousst/hello-firebase/blob/a65765556801467d473ee9ba7b32b469556b123f/main.js#L5-L12
+```node
+# file: main.js
+// Service account key. Only applies to curent shell session
+var GOOGLE_APPLICATION_CREDENTIALS = require('./<service-account-key>');
+
+// Add Firebase Admin SDK
+admin.initializeApp({
+    credential: admin.credential.cert(GOOGLE_APPLICATION_CREDENTIALS),
+    databaseURL: "https://<your-project>.firebaseio.com"
+});
+```
 
 ## Author
 
